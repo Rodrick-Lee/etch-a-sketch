@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    width: 320px;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rows {
+    width: 20px; 
+    height: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 20px;
+}
