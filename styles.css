@@ -1,17 +1,29 @@
 .container {
     display: flex;
-    width: 320px;
+    flex-direction: column;
+    /* gap: 1px; */
+    width: auto;
+    box-sizing: border-box;
 }
 
-.column {
+.row {
     display: flex;
-    flex-wrap: wrap;
+    /* gap: 1px; */
 }
 
-.rows {
-    width: 20px; 
-    height: 20px;
+.cell {
+    width: 60px;
+    height: 60px;
     border: 1px solid #000;
     text-align: center;
     line-height: 20px;
+    /* transition: background-color 0.05s; */
+}
+
+.enter{
+    background-color: aliceblue;
+}
+
+.leave{
+    background-color: black;
 }
