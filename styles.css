@@ -3,9 +3,23 @@
     margin: 0;
     padding: 0;
 }
+.center{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 60px;
+}
 
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 960px;
     height: 960px;
@@ -18,12 +32,12 @@
 .cell {
     width: 60px;
     height: 60px;
-    border: 1px solid #000;
+    border: 1px solid #c5c3c3;
     text-align: center;
     line-height: 20px;
-    /* transition: background-color 0.05s; */
+    transition: background-color 0.1s;
 }
 
-.hover{
+.hover-black{
     background-color: black;
 }
